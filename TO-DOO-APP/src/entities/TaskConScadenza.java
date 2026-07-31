@@ -8,14 +8,16 @@ public class TaskConScadenza extends Task {
 
     private LocalDate scadenza;
 
-    public TaskConScadenza(int idParam, String titoloParam, int durataParam, Priorità prioritaParam, LocalDate scadenza) {
+    public TaskConScadenza(int idParam, String titoloParam, int durataParam, Priorità prioritaParam, LocalDate scadenzaParam) {
         super(idParam, titoloParam, durataParam, prioritaParam);
-        this.scadenza = scadenza;
+        this.scadenza = scadenzaParam;
     }
 
     public LocalDate getScadenza() {
         return scadenza;
     }
+
+    // METODO CHE CHIEDE SE LA DATA SUPERA LA DATA DI SCADENZA E RESTITUISCE BOOLEAN
 
     public boolean isScadenza() {
         if (LocalDate.now().isAfter(scadenza)) {

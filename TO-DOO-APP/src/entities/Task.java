@@ -22,7 +22,7 @@ public abstract class Task {
         this.completata = false;// APPENA CREATE SONO ---false---
     }
 
-    public abstract void completa();
+    public abstract void completa();// METODO DELLA TASK COMPLETATA
 
     // PERMETTO DI LEGGERE I CAMPI PRIVATI
 

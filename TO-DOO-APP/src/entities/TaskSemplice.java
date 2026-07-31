@@ -8,6 +8,8 @@ public class TaskSemplice extends Task {
         super(idParam, titoloParam, durataParam, prioritaParam);
     }
 
+    //METODO CHE RIDA TASK COMPLETATA ---true--- E BASTA
+
     @Override
     public void completa() {
         completata = true;
