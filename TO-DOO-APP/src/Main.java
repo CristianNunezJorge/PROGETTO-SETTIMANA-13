@@ -5,6 +5,7 @@ import entities.TaskSemplice;
 import priority.Priorità;
 
 import java.time.LocalDate;
+import java.util.ArrayList;
 
 public class Main {
     public static void main(String[] args) {
@@ -20,4 +21,9 @@ public class Main {
 
         System.out.println("----------------------------------------------------------------------------------------");
     }
+
+  //  public ArrayList<Task> getTasks(){
+   //     ArrayList<Task> tasks = new ArrayList<>();
+   //     tasks.add(new TaskConScadenza())
+   // }
  }
