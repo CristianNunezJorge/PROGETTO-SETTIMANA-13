@@ -5,7 +5,6 @@ import exceptions.TaskNonTrovata;
 import priority.Priorità;
 
 import java.util.ArrayList;
-import java.util.stream.Collectors;
 import java.util.List; // TRUCCO PER FARE IN MODO CHE ANCHE SENZA LA LIST IL METODO ---cercaPerPriorita--- NON DIA ERRORE
 
 public class TaskManeger {
