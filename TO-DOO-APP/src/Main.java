@@ -19,7 +19,7 @@ public class Main {
         TaskRicorrente taskRicorrente1 = new TaskRicorrente(79876, "Pagare-Bollette",1, Priorità.ALTA,30, 0);
         System.out.println(taskRicorrente1.toString());
 
-        System.out.println("----------------------------------------------------------------------------------------");
+        //   System.out.println("----------------------------------------------------------------------------------------");
     }
 
   //  public ArrayList<Task> getTasks(){

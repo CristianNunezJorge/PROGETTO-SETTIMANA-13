@@ -61,7 +61,22 @@ public class TaskManeger {
          task.completa();
     }
 
+    // SERVE A STAMPARE LE TASK IN BASE A QUALI SONO COMPLETATE E NON
 
+    public void stampaStatistiche() {
+
+         //CONTROLLA QUELLI COPMPLETATI E CONTA QUANTI SONO PER POI STAMPARLI CON --sout--
+
+         long completati = tasks.stream().filter(Task::isCompletata).count();
+
+         //CONTROLLA QUELLI NON COMPLETATI E CONTA QUANTI SONO PER POI STAMPARLI CON --sout--
+
+         long nonCompletati = tasks.stream().filter(t ->  !t.isCompletata()).count();
+
+
+        System.out.println("Task completati: " + completati);
+        System.out.println("Task non completati: " + nonCompletati);
+    }
 
 }
 
