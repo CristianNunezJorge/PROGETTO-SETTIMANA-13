@@ -10,7 +10,7 @@ public abstract class Task {
     private String titolo;
     private int durata;
     private Priorità priorita;
-    protected boolean completata; //ATTRIBUTO CREATO PER IL METODO ---completa---
+    protected boolean completata; //ATTRIBUTO CREATO PER IL METODO ---completa--- ED HO USATO PRETECTED PER PERMETTE HAI FIGLI DI MODIFICARLO
 
     //COTRUTTORE( PARAMETRI)
 
